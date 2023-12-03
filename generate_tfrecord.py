@@ -30,7 +30,7 @@ FLAGS = flags.FLAGS
 def class_text_to_int(row_label):
     VOC_LABELS = {
         'none': (0, 'Background'),
-        'apple': (1, 'people')}
+        'apple': (1, 'person')}
   
     return VOC_LABELS[row_label][0]
     # if row_label == 'mobile':
